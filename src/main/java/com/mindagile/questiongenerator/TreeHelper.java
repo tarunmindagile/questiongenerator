@@ -43,4 +43,8 @@ public class TreeHelper {
 	public static boolean isOperator(String str) {
 		return str.equals("+") || str.equals("*") || str.equals("-") || str.equals("/");
 	}
+
+	public static int getOperatorPriority(String str) {
+		return str.equals("+") || str.equals("-") ? 1 : 2;
+	}
 }

@@ -11,5 +11,10 @@ public class Runner {
 		TreePrinter.print(node);
 		System.out.println(TreeHelper.buildPostFixExpression(node));
 		System.out.println(TreeHelper.convertPostfixIntoInfix(TreeHelper.buildPostFixExpression(node)));
+		System.out.println(TreeConverter.treeToInfixWithMinBracket(node, false));
+		String ttt[] = {"(", "2","+", "3", ")"};
+		int two =2;
+		int three = 3;
+		
 	}
 }

@@ -22,7 +22,7 @@ public class TreeGenerator {
 	public static TreeNode buildExpressionTree() {
 		TreeNode treeNode = new TreeNode();
 		treeNode.setText(getRandomOperator());
-		populateNode(treeNode, 3);
+		populateNode(treeNode, 5);
 		return treeNode;
 	}
 
