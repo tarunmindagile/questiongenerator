@@ -10,4 +10,6 @@ public interface PrintableNode {
 
 	/** Get text to be printed */
 	String getText();
+	
+	
 }

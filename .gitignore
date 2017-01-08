@@ -1,4 +1,8 @@
 /target/
 /bin/
 QuestionGenerator.iml
+.classpath
+.idea
+.project
+.settings
 
